@@ -1,0 +1,13 @@
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# BentoML local store
+bentoml/
+
+# MLflow local store
+mlruns/
+mlflow_runs/

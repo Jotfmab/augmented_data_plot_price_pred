@@ -1,0 +1,16 @@
+# In file: mlops_pipeline/bentofile.yaml
+
+service: "model_api.service:svc"
+labels:
+  owner: jotfmab
+  project: plot_price_prediction
+include:
+  - "data/final_corrected_augmented_dataset.csv" # Include the data file for feature engineering
+python:
+  packages:
+    - scikit-learn #
+    - pandas #
+    - numpy #
+    - xgboost #
+    - category_encoders #
+    # We explicitly list packages to ensure the environment is reproducible.

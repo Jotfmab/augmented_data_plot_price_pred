@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/augmented_data_plot_price_pred/mlops_pipeline/mlflow_runs/987692625265231840/c6c21b36f2f74064a9a8442eeaac737c/artifacts
+end_time: 1749568908734
+entry_point_name: ''
+experiment_id: '987692625265231840'
+lifecycle_stage: active
+run_id: c6c21b36f2f74064a9a8442eeaac737c
+run_name: brawny-ape-722
+run_uuid: c6c21b36f2f74064a9a8442eeaac737c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749568904678
+status: 3
+tags: []
+user_id: codespace
